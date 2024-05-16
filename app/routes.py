@@ -6,7 +6,7 @@ app = Flask(__name__)            # Create an instance of Flask (now an object)
 def index():                     # View function = function wrapped inside a Flask decorator
     me = {                       # Python dictionary (key-value pairs)
       "first_name": "Alexis",
-      "last_name": "GPL",
+      "last_name": "Peñuñuri Salgado",
       "hobbies": "Videogames",
       "is_online": True
     }
