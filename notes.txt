@@ -1,0 +1,28 @@
+Commands
+wsl --install
+
+sudo apt update
+sudo apt upgrade
+
+python3 --version
+
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install python3-venv
+
+echo ~
+mkdir -p Code/SDGKU/FSDI_111
+cd ~/Code/SDGKU
+pwd
+cd FSDI_111
+python3 -m venv venv
+which python3
+
+source venv/bin/activate
+
+pip3 install flask
+flask --version
+
+explore.exe .
+
+sh run_local.sh
