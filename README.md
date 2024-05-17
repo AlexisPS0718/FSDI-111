@@ -25,5 +25,11 @@ FSDI 111 course repository.
 **Install Flask** \
 `pip3 install flask`
 
+**Install SQLite** \
+`sudo apt install sqlite3`
+
+**Create a new SQLite database** \
+`sqlite3 sandbox.db`
+
 **Run the app** \
 `sh run_local.sh`
